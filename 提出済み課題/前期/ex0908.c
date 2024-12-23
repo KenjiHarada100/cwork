@@ -1,0 +1,22 @@
+/*
+24EO0118 原田健司
+*/
+
+#include <stdio.h>
+
+int main(void){
+	int i;
+	int j;
+
+	for(i = 1; i <= 9; i++){
+				if(i % 3 != 0){
+				continue;
+				}
+		for(j = 1; j <=9; j++){
+			printf("%3d", i * j);
+		}
+		putchar('\n');
+	}
+
+	return 0;
+}
